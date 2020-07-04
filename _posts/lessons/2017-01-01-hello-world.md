@@ -2,7 +2,7 @@
 layout: post
 category : lessons
 tagline: "リリースノート"
-tags : [リリースノート]]
+tags : ["リリースノート"]]
 img : helloworld.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: bitplex, リリースノート
+keywords: bitplex, "リリースノート"
 canonical: https://bitplexjp.github.io
 ---
 {% include JB/setup %}
