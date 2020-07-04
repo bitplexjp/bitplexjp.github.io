@@ -7,7 +7,7 @@ img : helium-theme-post.jpg
 img-mobile : 
 img2 : 
 img3 : 
-author : Antonio Trento
+author : Bitplex
 title2 : 
 title3 : 
 css: 
