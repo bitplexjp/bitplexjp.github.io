@@ -242,13 +242,50 @@ canonical: https://bitplexjp.github.io
   <div class="mb-60"></div>
 
   <!-- CONTACT FORM -->
+  <style>
+    p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px auto 40px;
+}
+table {
+  margin: 20px auto;
+}
+.tbl-r02 th {
+  background: #e9727e;
+  border: solid 1px #ccc;
+  color: #fff;
+  padding: 10px;
+}
+.tbl-r02 td {
+　border: solid 1px #ccc;
+  padding: 10px;
+}
+ 
+@media screen and (max-width: 640px) {
+  .last td:last-child {
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+  }
+  .tbl-r02 {
+    width: 80%;
+  }
+  .tbl-r02 th,
+  .tbl-r02 td {
+　　border-bottom: none;
+    display: block;
+    width: 100%;
+  }
+}
+  </style>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h4 class="contact-info-title">事業者情報</h4>
       </div>
       <div class="contact-info">
-        <table>
+        <table class="tbl-r02">
           <tr>
             <th><span>名称</span></th>
             <td class=""><span>ビットプレックス</span></td>
