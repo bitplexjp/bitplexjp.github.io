@@ -2,7 +2,7 @@
 layout: post
 category : lessons
 tagline: "リリースノート"
-tags : ["リリースノート"]
+tags : ["リリースノート"]]
 img : helloworld.jpg
 img-mobile : 
 img2 : 
