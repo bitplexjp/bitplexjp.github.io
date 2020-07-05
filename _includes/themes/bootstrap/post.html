@@ -36,25 +36,25 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        {$ comment $}
+        {% comment %}
           {% include ads-block.html %}
         <div class="mb-60"></div>
-        {$ endcomment $}
+        {% endcomment %}
 
         {{ content }}
 
-        {$ comment $}
+        {% comment %}
         <div class="mb-60"></div>
         {% include ads-block.html %}
         <div class="mb-60"></div>
-        {$ endcomment $}
+        {% endcomment %}
         {% include JB/comments %}
       </div>
-      {$ comment $}
+      {% comment %}
       <div class="col-sm-12 col-md-3">
         {% include side-bar.html %}
       </div>
-      {$ endcomment $}
+      {% endcomment %}
     </div>
   </div>
 </section>
