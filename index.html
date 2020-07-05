@@ -246,26 +246,50 @@ canonical: https://bitplexjp.github.io
     <div class="row">
       <div class="col-md-12">
         <h4 class="contact-info-title">事業者情報</h4>
-        <div class="contact-info">
-          <a href="mailto:hello@bitplex.jp"
-            ><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i
-            >hello@bitplex.jp</a
-          >
-          <a href="https://www.bitplex.jp/"
-            ><i class="fa fa-tablet icons cyan-color contact-info-icon"></i
-            >https://www.bitplex.jp/</a
-          >
-          {% include social-block.html %}
-        </div>
       </div>
-      <div class="row">
-        <div class="col-md-12 col-3">
-          <span>名称</span>
-        </div>
-        <div class="col-md-12 col-9">
-          <span>ビットプレックス（Bitplex）</span>
-        </div>
+      <div class="contact-info">
+        <table>
+          <tr>
+            <th><span>名称</span></th>
+            <td class=""><span>ビットプレックス</span></td>
+          </tr>
+          <tr>
+            <th><span>英語表記</span></th>
+            <td class=""><span>Bitplex</span></td>
+          </tr>
+          <tr>
+            <th><span>事業内容</span></th>
+            <td class=""><div>
+              <ul>
+                <li><span>情報処理サービス業および情報提供サービス業</span></li>
+                <li><span>Webサービスやモバイルアプリなどソフトウェアの企画、開発、運用、保守、販売</span></li>
+              </ul>
+            </div></td>
+          </tr>
+          <tr>
+            <th><span>メール</span></th>
+            <td class="">
+              <a href="mailto:hello@bitplex.jp"
+                ><i
+                  class="fa fa-envelope-o icons cyan-color contact-info-icon"
+                ></i
+                >hello@bitplex.jp</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th><span>ホームページ</span></th>
+            <td class="">
+              <a href="https://www.bitplex.jp/"
+                ><i class="fa fa-tablet icons cyan-color contact-info-icon"></i
+                >https://www.bitplex.jp/</a
+              >
+            </td>
+          </tr>
+        </table>
       </div>
+
+      {% comment %} {% include social-block.html %} {% endcomment %}
     </div>
   </div>
 
