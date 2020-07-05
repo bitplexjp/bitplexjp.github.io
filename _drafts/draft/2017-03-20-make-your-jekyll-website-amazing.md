@@ -1,7 +1,7 @@
 ---
 layout: post
 category : lessons
-tagline: "Using bitplexjp.github.io"
+tagline: "Using www.bitplex.jp"
 tags : [bootstrap 4, web desing, jekyll]
 img : helium-jekyll.jpg
 img-mobile : 
