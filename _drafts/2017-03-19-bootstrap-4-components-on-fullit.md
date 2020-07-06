@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : 
 tagline: "Some elements for fullit from bootstrap 4"
 tags : [bootstrap, example, jekyll, components]
 img : 3.jpg
